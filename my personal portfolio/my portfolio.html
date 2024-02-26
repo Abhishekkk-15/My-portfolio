@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         body{
+            background-color: rgb(0, 0, 34);
+            color: white;
+            font-family: 'poppins', sans-serif;
+         }
+
+         nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(6, 6, 80);
+         }
+
+         nav ul{
+            display: flex;
+            justify-content: center;
+         }
+
+         nav ul li{
+            list-style: none;
+            margin: 0 25px;
+         }
+
+         nav ul li a{
+           text-decoration: none;
+            color: white;
+         }
+
+         nav ul li a:hover{
+           color: rgb(150, 150, 253);
+           font-size: 1.04rem;
+         }
+
+         main hr{
+            border: 0;
+            background-color: blue;
+            height: 1px;
+            margin: 60px 85px;
+         }
+         .left{
+            font-size: 2rem;
+         }
+         .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+           
+         }
+         .firstsection > div{
+          width: 30%;
+         }
+         .leftsection{
+            font-size: 2.5rem;
+         }
+         .leftsection .btn{
+          padding: 12px;
+          background-color: rgb(50, 24, 106);
+          color: white;
+          border-radius: 6px;
+          font-size: 20px;
+          cursor: pointer;
+         }
+         .leftsection .buttons{
+            padding: 50px 0;
+         }
+
+         .rightsection{
+            width: 80%;
+            margin: 60px 0;
+         }
+
+         .purple{
+            color: rgb(76, 37, 166);
+         }
+         .text-grey{
+            color: goldenrod;
+         }
+         #element{
+            color: rgb(196, 91, 196);
+         }
+         .secondsection{
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+         }
+         .secondsection h1{
+            font-size: 2rem;
+         }
+         .secondsection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+         }
+
+         .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 200px;
+         }
+
+         .image-top{
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9;
+         }
+
+         .vertical-tittle{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+         }
+
+         .vertical-desc{
+            position: relative;
+            top: 90px;
+            color: goldenrod;
+            width: 150px;
+            font-size: 10px;
+
+         }
+         .footer{
+            background-color: rgb(37, 47, 67);
+            
+         }
+         .footer{
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+         }
+         .footer div{
+            width: 250px;
+         }
+         footer .footer-rights{
+            text-align: center;
+            color:goldenrod ;
+            padding: 12px 0;
+         }
+
+         
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">~Abhishek's Portfoloio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, MY name is <span class="purple">Abhishek</span>
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                  <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="devloper png.jpg" alt="developer" width="380" height="300">
+            </div>
+        </section>
+         <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                  <img class="image-top" src="data:image/png;base64,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" alt="">
+                <div class="vertical-tittle">
+                  HTML Developer
+                </div>
+                     <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque illum provident maiores est nemo nulla rerum ipsum dicta perferendis?
+                     </div>
+                </div>
+                <div class="vertical">
+                  <img class="image-top" src="data:image/jpeg;base64,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" alt="">
+                <div class="vertical-tittle">
+                  Node.js Developer
+                </div>
+                     <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque illum provident maiores est nemo nulla rerum ipsum dicta perferendis?
+                     </div>
+                </div>
+                <div class="vertical">
+                  <img class="image-top" src="dev.png" alt="">
+                <div class="vertical-tittle">
+                  Java Developer
+                </div>
+                     <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque illum provident maiores est nemo nulla rerum ipsum dicta perferendis?
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer">
+         <div class="footer-first">
+            <h3>Abhishek-Developer Portfolio</h3>
+         </div>
+         <div class="footer-second">
+            <ul>
+               <li>Contact no.-8718091092</li>
+               <li>E-mail-abhiiiii@15.04@mail.com</li>
+            </ul>
+         </div>
+         <div class="footer-third"></div>
+         <div class="footer-fourth"></div>
+      </div>
+      <div class="footer-rights">
+         www.Abhisheksportfolio.com  |All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Graphic Designer','Web Designer','Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
